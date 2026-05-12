@@ -30,11 +30,12 @@ class _HomeScreenState extends State<HomeScreen> {
           style: TextStyle(
             fontSize: 26,
             fontWeight: FontWeight.bold,
+            backgroundColor: Colors.white
           ),
         ),
         centerTitle: true,
       ),
-
+backgroundColor: Colors.white,
       body: ListView.builder(
         itemCount: provider.pics.length,
 
